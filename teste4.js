@@ -24,3 +24,6 @@ const numerosComFilter = randomArray.filter(element => typeof element === 'numbe
 
 console.log(stringsComFilter);
 console.log(numerosComFilter);
+
+const reduce = numerosComFilter.reduce((acc, cur) => acc + cur, 0);
+console.log(reduce);
